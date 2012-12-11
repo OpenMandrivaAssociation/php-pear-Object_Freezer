@@ -71,3 +71,18 @@ fi
 %{_datadir}/pear/Object/*.php
 %{_datadir}/pear/packages/Object_Freezer.xml
 
+
+
+%changelog
+* Sun Dec 18 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-2mdv2012.0
++ Revision: 743448
+- there's a new urpmi install ordering flaw, so working around that...
+- fix major breakage by careless packager
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1
++ Revision: 730869
+- import php-pear-Object_Freezer
+
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdv2010.2
+- initial Mandriva package
