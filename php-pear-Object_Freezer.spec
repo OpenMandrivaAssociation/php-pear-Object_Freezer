@@ -6,7 +6,7 @@ Version:	1.0.0
 Release:	4
 License:	BSD
 Group:		Development/PHP
-URL:		http://www.phpunit.de/
+URL:		https://www.phpunit.de/
 Source0:	http://pear.phpunit.de/get/Object_Freezer-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
